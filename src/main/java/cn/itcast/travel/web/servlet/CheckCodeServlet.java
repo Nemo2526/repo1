@@ -38,6 +38,9 @@ public class CheckCodeServlet extends HttpServlet {
 		g.setColor(Color.GRAY);
 		//填充图片
 		g.fillRect(0,0, width,height);
+
+
+
 		
 		//产生4个随机验证码，12Ey
 		String checkCode = getCheckCode();
